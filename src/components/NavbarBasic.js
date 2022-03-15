@@ -47,7 +47,7 @@ export default function NavbarBasic() {
             <Link to="/rats"> Rats </Link>
             <Link to="/bedbugs"> Bedbugs </Link>
             <Link to="/roaches"> Roaches </Link>
-            <Link to="/bees"> Bees </Link>
+            <Link to="/carpenter-bees"> Carpenter Bees </Link>
             <Link to="/wasps"> Wasps </Link>
             <Link to="/termites"> Termites </Link>
             <Link to="/stinkbugs"> Stinkbugs </Link>

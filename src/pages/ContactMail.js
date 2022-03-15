@@ -6,7 +6,7 @@ import { Form, Input, TextArea, Button, Radio, Grid, Header } from 'semantic-ui-
 
 function ContactMail() {
 
-  const SERVICE_ID = "service_k70qckl";
+  const SERVICE_ID = "service_f4blsjn";
   const TEMPLATE_ID = "template_ret4yvv";
   const USER_ID = "user_UJIGh7FYjyL6iEDWvrH3H";
 

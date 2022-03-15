@@ -43,7 +43,7 @@ export function Bees() {
           <section className="image">
             <img className="pest" alt="logo" src={Bee} align="left" />
           </section>
-          <h2> Bees</h2>
+          <h2> Carpenter Bees</h2>
           <p>Carpenter bee prevention and treatment begins with a thorough inspection by Weiner Pest Services to determine if there is a recurring problem. The most effective control method is to apply an insecticide dust to the bee's drill holes and leave the holes open for a few days so returning bees will contact the insecticide.</p>
 
           <p>Once the bees die, the drill holes can be sealed and repainted. Sometimes it may also be useful to apply an aerosol spray to control free flying carpenter bees. While only a temporarily effective method, applying a liquid insecticide to the wood surface is a less time consuming process than applying dust to drill holes. A control technique that does not use insecticides is to paint any bare, exposed wood surfaces that are being attacked with exterior paint or a polyurethane finish.</p>
@@ -156,17 +156,16 @@ export function Wasps() {
       </div>
       <div className="description">
         <h2> Wasps</h2>
-        <p> Wasps are distinguished from other flying pests particularly by their possession of a slender, smooth body and legs with relatively few hairs. Wasps also generally are predatory or parasitic and have stingers with few barbs that can be removed easily from their victims. Wasps have a narrow petiole, or “waist,” which attaches the abdomen to the thorax.</p>
+        <p>Wasps are distinguished from other flying pests particularly by their possession of a slender, smooth body and legs with relatively few hairs. Wasps also generally are predatory or parasitic and have stingers with few barbs that can be removed easily from their victims. Wasps have a narrow petiole, or “waist,” which attaches the abdomen to the thorax.</p>
 
-        <p>Wasps can be aggressive if provoked can sting you more than once. They will occupy any space where they feel protected and where they can find food and resources to build nests. They can be in lofts, sheds, garages, and piping and anywhere else they can build resources. Our technicians will do a thorough search of the property where an infestation is suspected and treat it with the latest technology to prevent future infestations.</p>
-        <p>
-          Keeping food covered, especially when outdoors, will also help keep these insects at bay when they are in search of nourishment. When spending time outside, people should avoid wearing strong fragrances and opt for unscented hygienic products. Likewise, they should wear shoes that cover and protect their feet from rogue paper wasps.  </p>
+        <p> Wasps can be aggressive if provoked can sting you more than once. They will occupy any space where they feel protected and where they can find food and resources to build nests. They can be in lofts, sheds, garages, and piping and anywhere else they can build resources. Our technicians will do a thorough search of the property where an infestation is suspected and treat it with the latest technology to prevent future infestations.</p>
+
+        <p> Keeping food covered, especially when outdoors, will also help keep these insects at bay when they are in search of nourishment. When spending time outside, people should avoid wearing strong fragrances and opt for unscented hygienic products. Likewise, they should wear shoes that cover and protect their feet from rogue paper wasps.</p>
       </div>
       <div className="form-content">
         <ContactForm />
       </div>
     </div>
-
   )
 }
 
@@ -179,14 +178,13 @@ export function Stinkbugs() {
       <div className="description">
         <h2> Stinkbugs </h2>
         <p>Stink bugs are described in several different ways. They are characterized as both “large, oval-shaped insects” and “shield-shaped insects.” Adult stink bugs can reach almost 2 cm in length. They are nearly as wide as they are long. Their legs extend from the sides, so this makes the adult bugs appear even larger. The brown marmorated stink bug is a brownish stink bug. It has lighter bands on the antennae and darker bands on the wings. </p>
-        <p>
-          Adult stink bugs are good fliers and fold their wings on top of their body when they land. Nymphs do not have fully developed wings. The wings appear when the nymph becomes an adult. Fully developed wings are a way to identify adult stink bugs. Homeowners often find stink bugs inside during the late summer months and autumn when temperatures outside start to drop. Finding large numbers of live or dead stink bugs is a pretty sure sign of an infestation. Stink bugs will turn up on sunny sides of homes where they warm themselves. Growers often detect an infestation by the damage they cause to their crops. If you feel there's been an infestation in your home, please call us for service.</p>
+
+        <p>Adult stink bugs are good fliers and fold their wings on top of their body when they land. Nymphs do not have fully developed wings. The wings appear when the nymph becomes an adult. Fully developed wings are a way to identify adult stink bugs. Homeowners often find stink bugs inside during the late summer months and autumn when temperatures outside start to drop. Finding large numbers of live or dead stink bugs is a pretty sure sign of an infestation. Stink bugs will turn up on sunny sides of homes where they warm themselves. Growers often detect an infestation by the damage they cause to their crops. If you feel there's been an infestation in your home, please call us for service.</p>
       </div>
       <div className="form-content">
         <ContactForm />
       </div>
     </div>
-
   )
 }
 

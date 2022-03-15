@@ -66,6 +66,7 @@ h2 {
   color:#4ea0c6;
   margin-right:2rem;
   margin-top:-1rem;
+  float:right;
 }
 
 .icons .phone, .icons .email {
@@ -107,7 +108,7 @@ h2 {
 
 .description {
   max-width: 100%;
-  font-size: 16px;
+  font-size: 18px;
   padding:10px 0 0 0;
   margin-bottom:30px;
 }

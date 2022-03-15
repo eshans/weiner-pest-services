@@ -2,7 +2,7 @@
 5. Godaddy deployment
 https://dev.to/crishanks/deploy-host-your-react-app-with-cpanel-in-under-5-minutes-4mf6
 
-
+https://stackoverflow.com/questions/16897723/how-to-add-my-current-project-to-an-already-existing-github-repository/16897800
 .htcaccess below
 
 <IfModule mod_rewrite.c>
@@ -22,3 +22,5 @@ https://dev.to/crishanks/deploy-host-your-react-app-with-cpanel-in-under-5-minut
 - COmplete all bug pages with images
 - Do areas page with map
 https://www.pestworld.org/
+
+https://medium.com/geekculture/how-to-send-emails-from-a-form-in-react-emailjs-6cdd21bb4190

@@ -4,8 +4,6 @@ import Bedbug from '../img/bedbug.jpeg';
 import Wasp from '../img/wasp.jpeg';
 import Mouse from '../img/mouse.jpeg'
 
-
-
 const Pests = () => {
   return (
     <>

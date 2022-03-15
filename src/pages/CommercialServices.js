@@ -1,4 +1,5 @@
 import warehouse from '../img/warehouse.jpg';
+import { ContactFormWithHeader } from '../components/ContactForm'
 
 export default function CommercialServices() {
   return (
@@ -12,6 +13,10 @@ export default function CommercialServices() {
         <p>
           The types of properties we service are varied but they include but not limited to food and beverage processing, healthcare, hospitality, Multifamily, Office Property and Management, Retail, Education, and other forms of Manufacturing. We're happy to come check out your problem and offer a fair price for dependable and reliable service.
         </p>
+        <p> Contact us on the form below for any questions about our services.</p>
+      </div>
+      <div className="form-content">
+        <ContactFormWithHeader />
       </div>
     </>
   )

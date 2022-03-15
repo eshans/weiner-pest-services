@@ -6,14 +6,14 @@ import { Form, Input, TextArea, Button, Radio, Grid, Header } from 'semantic-ui-
 import worker from '../img/wpsjustin2.jpeg';
 
 
-
 export function ContactForm() {
 
   let currentLocation = window.location;
   let pathname = currentLocation.pathname;
-  let pest = pathname.replace(/\\|\//g, '');
+  let pest = pathname.replace(/\\|\//g, '',);
+  let pestName = pest.replace(/-/g, " ");
 
-  const SERVICE_ID = "service_k70qckl";
+  const SERVICE_ID = "service_f4blsjn";
   const TEMPLATE_ID = "template_ret4yvv";
   const USER_ID = "user_UJIGh7FYjyL6iEDWvrH3H";
 
@@ -41,7 +41,7 @@ export function ContactForm() {
     <>
       <Grid>
         <Grid.Column textAlign="left">
-          <Header> If you see any {pest} on your property that you think might be a problem, please fill out the form below to contact us.</Header>
+          <Header> If you see any {pestName} on your property that you think might be a problem, please fill out the form below to contact us.</Header>
         </Grid.Column>
       </Grid>
       <div className="mail-form"
@@ -50,10 +50,8 @@ export function ContactForm() {
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat'
-
         }}
       >
-
         <Form onSubmit={handleOnSubmit}>
           <Form.Field
             id='form-input-control-email'
@@ -95,14 +93,13 @@ export function ContactForm() {
           <Button id="submit" type='submit'>Submit</Button>
         </Form >
       </div >
-
     </>
   );
 }
 
 export function ContactFormWithHeader() {
 
-  const SERVICE_ID = "service_k70qckl";
+  const SERVICE_ID = "service_f4blsjn";
   const TEMPLATE_ID = "template_ret4yvv";
   const USER_ID = "user_UJIGh7FYjyL6iEDWvrH3H";
 

@@ -34,7 +34,7 @@ function App() {
           <Route path='/roaches' element={<Roaches />} />
           <Route path='/bedbugs' element={<Bedbugs />} />
           <Route path='/termites' element={<Termites />} />
-          <Route path='/bees' element={<Bees />} />
+          <Route path='/carpenter-bees' element={<Bees />} />
           <Route path='/mice' element={<Mice />} />
           <Route path='/flies' element={<Flies />} />
           <Route path='/stinkbugs' element={<Stinkbugs />} />

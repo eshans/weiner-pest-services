@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { Link } from 'react-router-dom';
 
 
 //Font Awesome Icons
@@ -21,7 +20,6 @@ const EmailIcon = () => {
 const FacebookIcon = () => {
   return <FontAwesomeIcon icon={faFacebook} />
 };
-
 
 
 export default function Header() {
