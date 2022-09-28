@@ -49,9 +49,7 @@ export function Bees() {
           <p>Once the bees die, the drill holes can be sealed and repainted. Sometimes it may also be useful to apply an aerosol spray to control free flying carpenter bees. While only a temporarily effective method, applying a liquid insecticide to the wood surface is a less time consuming process than applying dust to drill holes. A control technique that does not use insecticides is to paint any bare, exposed wood surfaces that are being attacked with exterior paint or a polyurethane finish.</p>
         </div>
       </div>
-
       <ContactForm />
-
     </>
   )
 }
@@ -92,7 +90,7 @@ export function Flies() {
           <p> Non-biting flies, such as houseflies, are not only nuisance pests, but they are also responsible for transmitting diseases and contaminating food. For instance, flies are capable of contaminating food and transferring more than 100 pathogens, including malaria, salmonella and tuberculosis. Food contamination is one of the main reasons that fly pest control is so important.</p>
           <p>
             Most of the time, flies will hatch outside and then find their way into a home via openings like worn down weather stripping, damaged mesh screens, or if doors are left open. Flies prefer to be in warmer environments and are attracted to warm air currents coming from buildings on cold days. Once inside, female houseflies are capable of laying between 75 to 150 eggs at a time, typically depositing them in compost piles, garbage cans, and decaying organic matter. When compressed together, all of the eggs are only about the size of a pea, making them very hard to spot. Additionally, fruit flies in particular can be brought into a home by latching onto food and fruit brought in from outside, as they are attracted to food waste and overripe produce.
-        </p>
+          </p>
         </div>
       </div>
       <div className="form-content">

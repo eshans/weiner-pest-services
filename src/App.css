@@ -486,7 +486,7 @@ Form {
 @media screen and (min-width: 1920px) and (max-width: 2420px) {
   .form-content {
     width: 100%;
-    position: fixed;
+    margin-top: 10rem;
   }
 }
 
