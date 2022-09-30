@@ -46,7 +46,7 @@ export function ContactForm() {
       </Grid>
       <div className="mail-form"
         style={{
-          background: `url(${worker})`,
+          background: '#4da2c9',
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat'
@@ -90,7 +90,7 @@ export function ContactForm() {
             placeholder='Message…'
             required
           />
-          <Button id="submit" type='submit'>Submit</Button>
+          <Button className="btn" id="submit" type='submit'>Submit</Button>
         </Form >
       </div >
     </>
@@ -132,7 +132,7 @@ export function ContactFormWithHeader() {
       </Grid>
       <div className="mail-form"
         style={{
-          background: `url(${worker})`,
+          background: '#4da2c9',
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat'

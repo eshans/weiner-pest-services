@@ -181,7 +181,9 @@ textarea {
 
 .form-content {
   background: #f5f4f4;
-  margin-top: 60px;
+  width: 100%;
+  margin-top: 7rem;
+  position: relative;
 }
 
 /*---- Contact form with mail -----*/
@@ -297,7 +299,7 @@ textarea {
 
 /* ---- Form styles ----*/
 #submit {
-  background: var(--main-bg-color);
+  background: black;
   color: #fff;
   font-family: 'Poppins', sans-serif;
 }
@@ -382,6 +384,7 @@ Form {
   background-color: #4ea0c6;
   overflow: hidden;
 }
+
 
 /*Responsive Menu v2*/
 /* Style the links inside the navigation bar */
@@ -481,15 +484,6 @@ Form {
     transform: scale(1)
   }
 }
-
-/*------Start media queries-------*/
-@media screen and (min-width: 1920px) and (max-width: 2420px) {
-  .form-content {
-    width: 100%;
-    margin-top: 10rem;
-  }
-}
-
 
 @media only screen and (max-width: 800px) {
   .nav .links a {

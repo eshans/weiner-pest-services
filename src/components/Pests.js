@@ -49,7 +49,9 @@ export function Bees() {
           <p>Once the bees die, the drill holes can be sealed and repainted. Sometimes it may also be useful to apply an aerosol spray to control free flying carpenter bees. While only a temporarily effective method, applying a liquid insecticide to the wood surface is a less time consuming process than applying dust to drill holes. A control technique that does not use insecticides is to paint any bare, exposed wood surfaces that are being attacked with exterior paint or a polyurethane finish.</p>
         </div>
       </div>
-      <ContactForm />
+      <div className="form-content">
+        <ContactForm />
+      </div>
     </>
   )
 }
@@ -66,7 +68,6 @@ export function Bedbugs() {
             <h2> Bedbugs</h2>
             <p>Weiner Pest Services specializes in Bed Bug control. We have years of experience of tackling problems of all shapres and sizes and in all types of residential properties, from small apartments to multi-room houses.</p>
             <p>Bed bugs prefer to hide close to where they feed, like beds, but have been documented to travel 100-150 feet to obtain a blood meal, so it is unlikely to diminish an infestation by leaving an area unoccupied. </p>
-
             <p>Athough they do not have nests, bed bugs gather in areas that can be marked by dark spotting and staining of dried excrement. Eggs, shells, brownish molted skins of nymphs and the bugs themselves will be present. If you suspect that you have bed bugs in your home, give us a call immediately, our bed bug exterminator will come and determine the best course of action. </p>
           </div>
         </div>
