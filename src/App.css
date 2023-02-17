@@ -1,478 +1,475 @@
 /*---- Main styles ---- */
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i");
 
 :root {
-  --main-bg-color: #4ea0c6;
+	--main-bg-color: #4ea0c6;
 }
 
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  background-color: rgb(255, 255, 255);
+	margin: 0;
+	background-color: rgb(255, 255, 255);
 }
 
 .left {
-  float: left;
+	float: left;
 }
 
 p {
-  margin: 4px 0 0 0;
-  padding: 0;
+	margin: 4px 0 0 0;
+	padding: 0;
 }
 
 h2 {
-  margin: 2px 0 0 0;
+	margin: 2px 0 0 0;
 }
 
 .wrapper {
-  min-height: 100vh;
-  padding: 0 10px;
+	min-height: 100vh;
+	padding: 0 10px;
 }
 
 .header {
-  margin: 15px 0 10px 15px;
+	margin: 15px 0 10px 15px;
 }
 
 .header .image {
-  margin: 0 0 0 30px;
+	margin: 0 0 0 30px;
 }
 
 .header .logos {
-  float: left;
+	float: left;
 }
 
 .header .icons {
-  margin: 5px 0 0 15px;
-  color: #4ea0c6;
-  font-weight: bold;
-  font-size: 22px;
+	margin: 5px 0 0 15px;
+	color: #4ea0c6;
+	font-weight: bold;
+	font-size: 22px;
 }
 
 .header .icons a {
-  color: #4ea0c6;
+	color: #4ea0c6;
 }
 
 .header .icons a:hover {
-  color: #1bb172;
+	color: #1bb172;
 }
 
 .header .number {
-  display: flex;
-  justify-content: right;
-  font-size: 1.3rem;
-  font-weight: bold;
-  color: #4ea0c6;
-  margin-right: 2rem;
-  margin-top: -1rem;
-  float: right;
+	display: flex;
+	justify-content: right;
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: #4ea0c6;
+	margin-right: 2rem;
+	margin-top: -1rem;
+	float: right;
 }
 
 .icons .phone,
 .icons .email {
-  margin-left: 20px;
-  display: flex;
-  color: #4ea0c6;
+	margin-left: 20px;
+	display: flex;
+	color: #4ea0c6;
 }
 
 .image img {
-  float: left;
-  display: flex;
-  max-width: 35%;
-  padding: 17px 15px 4px 15px;
+	float: left;
+	display: flex;
+	max-width: 35%;
+	padding: 17px 15px 4px 15px;
 }
 
 .image.service img {
-  max-width: 30%;
-  display: flex;
-  justify-content: left;
-  align-items: left;
+	max-width: 30%;
+	display: flex;
+	justify-content: left;
+	align-items: left;
 }
 
 [data-icon="phone"] {
-  margin-right: 1rem;
+	margin-right: 1rem;
 }
 
 [data-icon="envelope"] {
-  margin-left: 2rem;
+	margin-left: 2rem;
 }
 
 [data-icon="facebook"] {
-  margin-left: 2.7rem;
+	margin-left: 2.7rem;
 }
 
 /* ---- Content Layouts ----*/
 .content {
-  min-height: 300px;
+	min-height: 300px;
 }
 
 .description {
-  max-width: 100%;
-  font-size: 18px;
-  padding: 10px 0 0 0;
-  margin-bottom: 30px;
+	max-width: 100%;
+	font-size: 1.3rem;
+	padding: 10px 0 0 0;
+	margin-bottom: 30px;
 }
 
 .description p {
-  margin: 5px 0 0 0;
-  padding: 0;
+	margin: 5px 0 0 0;
+	padding: 0;
 }
 
 .description h2 {
-  margin: 5px 0 0 0;
+	margin: 5px 0 0 0;
 }
 
 .description .main-img {
-  margin: 10px 0 0 0;
+	margin: 10px 0 0 0;
 }
 
 /* --- Error Page ----*/
 .error-text {
-  text-align: center;
-  font-size: 4rem;
-  margin-top: 3rem;
+	text-align: center;
+	font-size: 4rem;
+	margin-top: 3rem;
 }
 
 .error-link {
-  text-align: center;
-  font-size: 1.4rem;
-  margin-top: 2rem;
+	text-align: center;
+	font-size: 1.4rem;
+	margin-top: 2rem;
 }
 
 /* ---- Form styles ----*/
 .contact-wrapper {
-  padding: 5px 20px;
-  border-radius: 5px;
+	padding: 5px 20px;
+	border-radius: 5px;
 }
 
 .contact-wrapper fieldset {
-  border: none;
-  width: 400px;
+	border: none;
+	width: 400px;
 }
 
-.contact-wrapper input[type=text],
+.contact-wrapper input[type="text"],
 select,
 textarea {
-  width: 400px;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
+	width: 400px;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
 }
 
 .contact-wrapper label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
+	padding: 12px 12px 12px 0;
+	display: inline-block;
 }
 
 .contact-wrapper button {
-  background-color: #1c9fd373;
-  color: black;
-  padding: 12px 20px;
-  margin: 15px 0 0 15px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+	background-color: #1c9fd373;
+	color: black;
+	padding: 12px 20px;
+	margin: 15px 0 0 15px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
 }
 
 .form-content {
-  background: #f5f4f4;
-  width: 100%;
-  margin-top: 7rem;
-  position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 /*---- Contact form with mail -----*/
 .mail-form {
-  text-align: left;
-  margin: 10px 0 0 0;
-  justify-content: left;
-  display: flex;
-  align-items: left
+	text-align: left;
+	margin: 10px 0 0 0;
+	justify-content: left;
+	display: flex;
+	align-items: left;
 }
 
 .ui.form {
-  min-width: 50%;
+	min-width: 50%;
 }
 
 .ui.label {
-  background-color: none;
-  margin: 10px;
+	background-color: none;
+	margin: 10px;
 }
 
 .ui.input {
-  background-color: none;
-  margin: 15px 0 14px 0;
+	background-color: none;
+	margin: 15px 0 14px 0;
 }
 
 .ui.grid {
-  margin: 25px 0 0 10px !important;
+	margin: 25px 0 0 10px !important;
 }
 
 .ui.header {
-  font-size: 18px !important;
-  margin-top: 4px !important;
+	font-size: 18px !important;
+	margin-top: 4px !important;
 }
 
-.ui.grid>.column:not(.row) {
-  padding: 5px !important;
+.ui.grid > .column:not(.row) {
+	padding: 5px !important;
 }
 
 .swal2-confirm.swal2-styled {
-  background-color: var(--main-bg-color) !important;
+	background-color: var(--main-bg-color) !important;
 }
 
 /*---- Pest Image Gallery ----*/
 .row {
-  display: flex;
+	display: flex;
 }
 
 .column {
-  flex: 33.33%;
-  padding: 5px;
+	flex: 33.33%;
+	padding: 5px;
 }
 
 .column h3 {
-  margin: 4px 0 2px 0;
+	margin: 4px 0 2px 0;
 }
 
 .pest_gallery {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 .image-card {
-  width: 31vw;
-  height: 18vw;
-  object-fit: cover;
-  margin: 10px 5px 0 10px;
+	width: 31vw;
+	height: 18vw;
+	object-fit: cover;
+	margin: 10px 5px 0 10px;
 }
 
 #lightbox-img {
-  height: 80vh;
-  max-width: 90vw;
-  object-fit: cover;
+	height: 80vh;
+	max-width: 90vw;
+	object-fit: cover;
 }
 
 #lightbox {
-  z-index: 1;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.5);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 #lightbox img:hover,
 #lightbox button:hover {
-  cursor: pointer;
-  background-color: #515556;
+	cursor: pointer;
+	background-color: #515556;
 }
 
 #lightbox button {
-  background-color: #4ea0c6;
-  border: 1px solid black;
-  color: #fff;
-  font-size: 28px;
-  margin: 10px;
+	background-color: #4ea0c6;
+	border: 1px solid black;
+	color: #fff;
+	font-size: 28px;
+	margin: 10px;
 }
 
 .card-wrapper {
-  position: relative;
-  max-width: 30vw;
-  float: left;
-  margin: 15px;
+	position: relative;
+	max-width: 30vw;
+	float: left;
+	margin: 15px;
 }
 
 .card-wrapper .header {
-  min-width: 5%;
-  font-size: 18px;
-  margin: 4px 0 0 6px;
+	min-width: 5%;
+	font-size: 18px;
+	margin: 4px 0 0 6px;
 }
 
 /* ---- Form styles ----*/
 #submit {
-  background: black;
-  color: #fff;
-  font-family: 'Poppins', sans-serif;
+	background: black;
+	color: #fff;
+	font-family: "Poppins", sans-serif;
 }
 
 Form {
-  border-radius: 10px;
-  padding: 20px;
+	border-radius: 10px;
+	padding: 20px;
 }
 
 /* ---- Select dropdown styles ----*/
 .dropdown-container {
-  float: right;
+	float: right;
 }
 
 .select-container {
-  display: flex;
-
+	display: flex;
 }
 
 .select-container label {
-  font-weight: bold;
-  font-size: 16px;
+	font-weight: bold;
+	font-size: 16px;
 }
 
 .select-dropdown,
 .select-dropdown * {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  box-sizing: border-box;
-  width: 230px;
-  display: flex;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	box-sizing: border-box;
+	width: 230px;
+	display: flex;
 }
 
 .select-dropdown {
-  position: relative;
-  background-color: #dde3e3;
-  border-radius: 4px;
+	position: relative;
+	background-color: #dde3e3;
+	border-radius: 4px;
 }
 
 .select-dropdown select {
-  font-size: 1rem;
-  font-weight: normal;
-  max-width: 100%;
-  padding: 5px 27px 3px 11px;
-  border: 1px solid grey;
-  background-color: transparent;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+	font-size: 1rem;
+	font-weight: normal;
+	max-width: 100%;
+	padding: 5px 27px 3px 11px;
+	border: 1px solid grey;
+	background-color: transparent;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 
 .select-dropdown select:active,
 .select-dropdown select:focus {
-  outline: none;
-  box-shadow: none;
+	outline: none;
+	box-shadow: none;
 }
 
 .select-dropdown:after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: 8px;
-  width: 0;
-  height: 0;
-  margin-top: -2px;
-  border-top: 5px solid #aaa;
-  border-right: 5px solid transparent;
-  border-left: 5px solid transparent;
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 8px;
+	width: 0;
+	height: 0;
+	margin-top: -2px;
+	border-top: 5px solid #aaa;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
 }
 
 /*Styles caret*/
 [data-icon="caret-down"] {
-  margin-left: 10px;
+	margin-left: 10px;
 }
 
 .logo {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 .topnav {
-  background-color: #4ea0c6;
-  overflow: hidden;
+	background-color: #4ea0c6;
+	overflow: hidden;
 }
-
 
 /*Responsive Menu v2*/
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: 'Poppins', sans-serif;
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: "Poppins", sans-serif;
 }
 
 .nav .links a {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
-  display: none;
+	display: none;
 }
 
 /* Dropdown container - needed to position the dropdown content */
 .dropdown {
-  float: left;
-  overflow: hidden;
+	float: left;
+	overflow: hidden;
 }
 
 /* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
-  font-size: 17px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0 10px 0 0;
+	font-size: 17px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0 10px 0 0;
 }
 
 /* Style the dropdown content (hidden by default) */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
 }
 
 /* Style the links inside the dropdown */
 .dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
 }
 
 .caret {
-  margin-left: 10px;
+	margin-left: 10px;
 }
 
 /* Add a dark background on topnav links and the dropdown button on hover */
 .topnav a:hover,
 .dropdown:hover .dropbtn {
-  background-color: #555;
-  color: white;
+	background-color: #555;
+	color: white;
 }
 
 /* Add a grey background to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
-  color: black;
+	background-color: #ddd;
+	color: black;
 }
 
 .active {
-  background-color: #555;
+	background-color: #555;
 }
 
 /* Show the dropdown menu when the user moves the mouse over the dropdown button */
 .dropdown:hover .dropdown-content {
-  display: block;
-  animation: fade_in_show 0.5s;
+	display: block;
+	animation: fade_in_show 0.5s;
 }
-
+/* 
 @keyframes fade_in_show {
   0% {
     opacity: 0;
@@ -483,123 +480,118 @@ Form {
     opacity: 1;
     transform: scale(1)
   }
-}
+} */
 
 @media only screen and (max-width: 800px) {
-  .nav .links a {
-    font-size: 12px;
-  }
+	.nav .links a {
+		font-size: 12px;
+	}
 
-  .description {
-    font-size: 14px;
-  }
-
+	.description {
+		font-size: 1.2rem;
+	}
 }
 
 @media only screen and (max-width: 650px) {
-  .nav a.open {
-    display: flex;
-    height: 20px;
-    align-items: center;
-    margin-top: 20px;
-    padding: 10px 5px 20px 10px;
-  }
+	.nav a.open {
+		display: flex;
+		height: 20px;
+		align-items: center;
+		margin-top: 20px;
+		padding: 10px 5px 20px 10px;
+	}
 
-  .select-dropdown select {
-    font-size: .7em;
-  }
+	.select-dropdown select {
+		font-size: 0.7em;
+	}
 
-  .select-container p {
-    font-size: 10px;
-  }
+	.select-container p {
+		font-size: 10px;
+	}
 
-  .header .image {
-    display: none;
-  }
+	.header .image {
+		display: none;
+	}
 
-  .error-text {
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 3rem;
-  }
+	.error-text {
+		text-align: center;
+		font-size: 2rem;
+		margin-top: 3rem;
+	}
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 
 @media screen and (max-width: 700px) {
+	.topnav a:not(:first-child),
+	.dropdown .dropbtn {
+		display: none;
+	}
 
-  .topnav a:not(:first-child),
-  .dropdown .dropbtn {
-    display: none;
-  }
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
 
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
+	.topnav.responsive {
+		position: relative;
+	}
 
-  .topnav.responsive {
-    position: relative;
-  }
+	.topnav.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
 
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
+	.topnav.responsive a,
+	.topnav.responsive button {
+		float: none;
+		display: block;
+		text-align: left;
+	}
 
-  .topnav.responsive a,
-  .topnav.responsive button {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+	.topnav.responsive .dropdown {
+		float: none;
+	}
 
-  .topnav.responsive .dropdown {
-    float: none;
-  }
+	.topnav.responsive .dropdown-content {
+		position: relative;
+	}
 
-  .topnav.responsive .dropdown-content {
-    position: relative;
-  }
+	.topnav.responsive .dropdown .dropbtn {
+		display: block;
+		width: 100%;
+		text-align: left;
+		animation: fade_in_show 0.5s;
+	}
 
-  .topnav.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-    animation: fade_in_show 0.5s;
-  }
+	.select-container {
+		position: absolute;
+		top: 35px;
+		right: 0;
+	}
 
-  .select-container {
-    position: absolute;
-    top: 35px;
-    right: 0;
-  }
+	.column {
+		width: 100%;
+	}
 
-  .column {
-    width: 100%;
-  }
+	.select-container label {
+		font-weight: bold;
+		font-size: 12px;
+	}
 
-  .select-container label {
-    font-weight: bold;
-    font-size: 12px;
-  }
+	#card-wrapper .header {
+		font-size: 12px;
+		margin: 0 0 0 6px;
+	}
 
-  #card-wrapper .header {
-    font-size: 12px;
-    margin: 0 0 0 6px;
-  }
+	.header .logo {
+		top: 0;
+		left: 0;
+	}
 
-  .header .logo {
-    top: 0;
-    left: 0;
-  }
-
-  .header .number {
-    display: none
-  }
-
-
-
+	.header .number {
+		display: none;
+	}
 }

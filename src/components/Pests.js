@@ -27,10 +27,10 @@ export function Ants() {
 
           <p> Ants come in different colors, shapes, and sizes. Each species requires a different approach. If you’re concerned about the number of ants you’ve seen coming into your home, then make today be the day that you give us a call. We can discuss inspection options, removal possibilities, all while keeping your budget in mind. </p>
         </div>
+        <div className="form-content">
+        <ContactForm/>
       </div>
-      <div className="form-content">
-        <ContactForm />
-      </div>
+    </div> 
     </>
   )
 }
@@ -48,10 +48,11 @@ export function Bees() {
 
           <p>Once the bees die, the drill holes can be sealed and repainted. Sometimes it may also be useful to apply an aerosol spray to control free flying carpenter bees. While only a temporarily effective method, applying a liquid insecticide to the wood surface is a less time consuming process than applying dust to drill holes. A control technique that does not use insecticides is to paint any bare, exposed wood surfaces that are being attacked with exterior paint or a polyurethane finish.</p>
         </div>
+        <div className="form-content">
+        <ContactForm/>
       </div>
-      <div className="form-content">
-        <ContactForm />
-      </div>
+    </div>
+    
     </>
   )
 }
@@ -71,10 +72,10 @@ export function Bedbugs() {
             <p>Athough they do not have nests, bed bugs gather in areas that can be marked by dark spotting and staining of dried excrement. Eggs, shells, brownish molted skins of nymphs and the bugs themselves will be present. If you suspect that you have bed bugs in your home, give us a call immediately, our bed bug exterminator will come and determine the best course of action. </p>
           </div>
         </div>
+        <div className="form-content">
+        <ContactForm/>
       </div>
-      <div className="form-content">
-        <ContactForm />
-      </div>
+     </div>
     </>
   )
 }
@@ -93,10 +94,10 @@ export function Flies() {
             Most of the time, flies will hatch outside and then find their way into a home via openings like worn down weather stripping, damaged mesh screens, or if doors are left open. Flies prefer to be in warmer environments and are attracted to warm air currents coming from buildings on cold days. Once inside, female houseflies are capable of laying between 75 to 150 eggs at a time, typically depositing them in compost piles, garbage cans, and decaying organic matter. When compressed together, all of the eggs are only about the size of a pea, making them very hard to spot. Additionally, fruit flies in particular can be brought into a home by latching onto food and fruit brought in from outside, as they are attracted to food waste and overripe produce.
           </p>
         </div>
+       <div className="form-content">
+        <ContactForm/>
       </div>
-      <div className="form-content">
-        <ContactForm />
-      </div>
+    </div>     
     </>
   )
 }
@@ -116,9 +117,9 @@ export function Mice() {
             <p>To keep mice and other rodents out, make sure all holes larger than a dime and gaps wider than a pencil are sealed with silicone-based caulk, steel wool, or other construction material. Keep areas clear and store boxes off the floor, as mice can hide in clutter. Store food in sealed glass or metal containers. Leave surfaces clear of crumbs and food morsels, which may attract them. </p>
           </div>
         </div>
-      </div>
-      <div className="form-content">
-        <ContactForm />
+        <div className="form-content">
+          <ContactForm/>
+        </div>
       </div>
     </>
   )
@@ -139,9 +140,9 @@ export function Roaches() {
             <p> Cockroaches are one of the most commonly noted household pest insects. They feed on human and pet food, and can leave an offensive odor. They can also passively transport microbes on their body surfaces including those that are potentially dangerous to humans, particularly in environments such as hospitals. Cockroaches are linked with allergic reactions in humans. </p>
           </div>
         </div>
+        <div className="form-content">
+        <ContactForm/>
       </div>
-      <div className="form-content">
-        <ContactForm />
       </div>
     </>
   )
@@ -162,7 +163,7 @@ export function Wasps() {
         <p> Keeping food covered, especially when outdoors, will also help keep these insects at bay when they are in search of nourishment. When spending time outside, people should avoid wearing strong fragrances and opt for unscented hygienic products. Likewise, they should wear shoes that cover and protect their feet from rogue paper wasps.</p>
       </div>
       <div className="form-content">
-        <ContactForm />
+        <ContactForm/>
       </div>
     </div>
   )
@@ -181,23 +182,7 @@ export function Stinkbugs() {
         <p>Adult stink bugs are good fliers and fold their wings on top of their body when they land. Nymphs do not have fully developed wings. The wings appear when the nymph becomes an adult. Fully developed wings are a way to identify adult stink bugs. Homeowners often find stink bugs inside during the late summer months and autumn when temperatures outside start to drop. Finding large numbers of live or dead stink bugs is a pretty sure sign of an infestation. Stink bugs will turn up on sunny sides of homes where they warm themselves. Growers often detect an infestation by the damage they cause to their crops. If you feel there's been an infestation in your home, please call us for service.</p>
       </div>
       <div className="form-content">
-        <ContactForm />
-      </div>
-    </div>
-  )
-}
-
-export function Fleas() {
-  return (
-    <div>
-      <div className="image">
-        <img className="pest" alt="logo" src={Wasp} align="left" />
-      </div>
-      <div className="description">
-        <h2> Wasps</h2>
-      </div>
-      <div className="form-content">
-        <ContactForm />
+        <ContactForm/>
       </div>
     </div>
   )
@@ -218,9 +203,9 @@ export function Termites() {
             <p> Swarmers looking to start a new colony are typically the first sign of termite season as these winged-pests show up inside homes in early spring. To get rid of termites in the home, contact Weiner Pest Services to address the infestation and recommend a course of proper termite control.</p>
           </div>
         </div>
+        <div className="form-content">
+        <ContactForm/>
       </div>
-      <div className="form-content">
-        <ContactForm />
       </div>
     </>
   )
@@ -240,9 +225,9 @@ export function Rats() {
             <p>Rats are often drawn to piles of wood, so homeowners should keep firewood stored well away from the structure and remove debris piles to reduce ideal nesting spots. It is also important to seal any holes on the outside of the home with steel wool to block potential points of entry. It is best to eliminate sources of moisture like leaky pipes, especially in crawl spaces and basements, as the dampness can attract rats in search of drinking water. All food products should also be properly sealed in containers to avoid any contamination, which can lead to disease transmission. Likewise, garbage should be tightly enclosed in trashcans that are regularly emptied outside of the home so as not to serve as food attractants. Homeowners are also encouraged to keep a regular eye out for signs of a rodent infestation. Please contact Weiner Pest Services if one is suspected.</p>
           </div>
         </div>
+        <div className="form-content">
+        <ContactForm/>
       </div>
-      <div className="form-content">
-        <ContactForm />
       </div>
     </>
   )
