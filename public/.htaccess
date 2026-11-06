@@ -1,0 +1,16 @@
+# Send every non-file request to index.html so Vue Router can handle it
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
+
+# Hashed assets never change, so cache them for a year
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|jpg|jpeg|png|gif|svg|woff2?)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>
